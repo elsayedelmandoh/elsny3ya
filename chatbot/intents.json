@@ -1,0 +1,256 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi :)",
+        "Hey :-)",
+        "I'm fine, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello",
+        "Thanks for visiting"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "See you soon",
+        "See you later"
+      ],
+      "responses": [
+        "Have a nice day",
+        "See you later, thanks for visiting",
+        "Goodbye!",
+        "Bye, see you soon!",
+        "Bye! Come back again soon.",
+        "Take care!",
+        "Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?", 
+        "What are you?", 
+        "Who you are?",
+        "Who you doing?",
+        "What are you doing?"
+      ],
+      "responses": [
+        "I'm Sonic, an Artificial Intelligent bot",
+        "I'm Sonic, your bot assistant",
+        "I'm Sonic, your friend!",
+        "I do what you need in app?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Sonic.",
+        "I'm Sonic!",
+        "Just call me as Sonic"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "electrical",
+      "patterns": [
+        "How do I connect an electrical socket?",
+        "What tools are required to install an electrical switch?",
+        "How do I change a household light bulb?",
+        "Can I install a ceiling fan by myself?"
+      ],
+      "responses": [
+        "You need to correctly identify the wires and follow the appropriate wiring diagram. It's advisable to consult an electrician if you're not sure.",
+        "Tools required include a level, wiring instructions, new wires if necessary, and wire cutters. Follow safety procedures while working.",
+        "Use safety equipment and turn off the power before changing a light bulb. Wear protective gloves.",
+        "You can install a ceiling fan by yourself, but follow the manufacturer's instructions carefully."
+      ]
+    },
+    {
+      "tag": "plumbing",
+      "patterns": [
+        "How can I fix a leak in the sink?",
+        "What are the steps to install a new faucet?",
+        "How do I clean the kitchen drain?",
+        "How can I prevent water pipes from freezing in winter?"
+      ],
+      "responses": [
+        "Close the main water valve before fixing a sink leak. It's important to act promptly.",
+        "To install a new faucet, connect the hose to the water line and secure it properly.",
+        "Regularly clear debris and food particles from the kitchen drain to prevent clogs.",
+        "Insulate pipes in cold areas using pipe insulation, and leave faucets dripping to prevent freezing."
+      ]
+    },
+    {
+      "tag": "carpentry",
+      "patterns": [
+        "How do I measure wood accurately for cutting?",
+        "What's the best way to install hardwood flooring?",
+        "How can I achieve a smooth edge when woodworking?",
+        "Can I repair wooden furniture myself?"
+      ],
+      "responses": [
+        "Use a ruler and a measuring tape to accurately measure wood before cutting.",
+        "Ensure a level surface and use glue and nails to secure hardwood flooring.",
+        "Use a variety of sandpaper grits to achieve a smooth wooden edge.",
+        "You can perform simple repairs on wooden furniture using glue and screws, but major repairs may require a furniture expert."
+      ]
+    },
+    {
+      "tag": "electrical_2",
+      "patterns": [
+        "What are the basic safety requirements when working with electricity?",
+        "How can I test an electrical wire to ensure it's safe?",
+        "What's the difference between direct current (DC) and alternating current (AC)?"
+      ],
+      "responses": [
+        "Wear safety gear like gloves and safety goggles when working with electricity. Always turn off power before starting any work.",
+        "Use a voltage tester to test electrical wires. Ensure power is cut off before testing.",
+        "DC flows in one direction, while AC changes direction periodically. AC is the most common type of current used in homes."
+      ]
+    },
+    {
+      "tag": "plumbing_2",
+      "patterns": [
+        "What are the reasons for water leakage in the bathroom?",
+        "How can I install a new toilet by myself?",
+        "What's the best way to unclog a toilet?",
+        "How do I prevent bathroom faucets from dripping?"
+      ],
+      "responses": [
+        "Water leakage in the bathroom can be caused by damaged seals or loose joints. It needs to be fixed promptly.",
+        "To install a new toilet, follow the manufacturer's instructions. Basic tools like a wrench and screws will be needed.",
+        "Use a toilet plunger or a plumbing snake to unclog a toilet. Avoid using chemical drain cleaners.",
+        "Regularly check and replace worn-out washers and seals to prevent faucet dripping."
+      ]
+    },
+    {
+      "tag": "carpentry_2",
+      "patterns": [
+        "What types of wood are suitable for outdoor furniture?",
+        "How can I create intricate designs using wood?",
+        "How do I repair cracks in wooden surfaces?",
+        "What's the process for staining wood?"
+      ],
+      "responses": [
+        "Choose weather-resistant woods like cedar or teak for outdoor furniture to prevent deterioration.",
+        "For intricate designs, use a scroll saw and follow a detailed plan. Patience is key.",
+        "Fill cracks in wood using wood filler. Sand the area and apply a finish for a seamless look.",
+        "To stain wood, sand the surface, apply the stain evenly, and wipe off excess stain after a few minutes."
+      ]
+    },
+    {
+      "tag": "hvac",
+      "patterns": [
+        "How often should I change my HVAC air filter?",
+        "What's the best way to maintain my air conditioning unit?",
+        "How can I troubleshoot a heating system that's not working?"
+      ],
+      "responses": [
+        "Air filters should be changed every 1-3 months, depending on usage.",
+        "Regularly clean the AC unit's coils and ensure proper ventilation around it.",
+        "Check the thermostat settings, power supply, and circuit breaker. If the issue persists, consult a professional."
+      ]
+    },
+    {
+      "tag": "painting",
+      "patterns": [
+        "What's the proper way to prepare a room for painting?",
+        "How can I achieve a smooth finish when painting walls?",
+        "What type of paint is suitable for outdoor surfaces?"
+      ],
+      "responses": [
+        "Before painting, remove furniture, clean surfaces, and apply painter's tape to protect edges.",
+        "Use a high-quality brush or roller and apply even coats with smooth strokes for a professional finish.",
+        "Choose exterior paint designed for outdoor use to withstand weather conditions."
+      ]
+    },
+    {
+      "tag": "automotive",
+      "patterns": [
+        "How often should I change the oil in my car?",
+        "What are the signs of a worn-out brake system?",
+        "How can I troubleshoot engine overheating?"
+      ],
+      "responses": [
+        "Oil should be changed every 3,000 to 5,000 miles, or as per your vehicle's manual.",
+        "Squeaking, grinding, or reduced responsiveness can indicate brake issues. Get them checked immediately.",
+        "Turn off the engine, let it cool down, check coolant levels, and inspect for leaks. Consult a mechanic if needed."
+      ]
+    },
+    {
+      "tag": "electronics_3",
+      "patterns": [
+        "How do I solder electronic components?",
+        "What's the best way to prevent static electricity damage to electronics?",
+        "How can I troubleshoot a malfunctioning computer?"
+      ],
+      "responses": [
+        "Use a soldering iron, solder wire, and flux to join electronic components. Practice is key to mastering soldering.",
+        "Use an anti-static wrist strap and work on an anti-static mat to prevent damage from static electricity.",
+        "Check connections, reboot, and run diagnostics. Seek professional help if the issue persists."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    }
+  ]
+}
